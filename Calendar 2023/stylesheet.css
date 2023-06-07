@@ -1,0 +1,43 @@
+
+#header {
+    margin: 0;
+    padding:20px;
+    background-color: #193852;;
+    text-align:center;
+    font-size:50px;
+    color:#efe198;
+}
+@font-face {
+  font-family: ShadowsIntoLight-Regular;
+  src: url(ShadowsIntoLight-Regular.ttf);
+}
+table {
+    margin:20px;
+    border:10px #4c6394;
+    display:inline-flex;
+    background:linear-gradient( #7ea4b0, #2f3774);
+    max-width:500px;
+    min-width: 265px;
+
+}
+body {
+    margin:0;
+    padding:0;
+    color:#cdd27e;
+    font-family:ShadowsIntoLight-Regular;
+    font-weight: 700;
+    background-image:url(Starry-night.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+/* thead {
+    border:2px dotted rgb(129, 129, 70);
+} */
+.month {
+    text-align:center;
+    font-size: 2rem;
+}
+
+div {
+    margin:50px;
+}
